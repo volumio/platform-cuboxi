@@ -15,4 +15,6 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - 20160911: Fixes SPDIF regression since 4.4
             Changed imx6qdl.dtsi according to patch 
             http://git.kernel.org/cgit/linux/kernel/git/next/linux-next.git/commit/arch/arm/boot/dts/imx6qdl.dtsi?id=f065e9e4addd75c21bb976bb2558648bf4f61de6
-            
+- 20160913: Added ALSA aliases            
+- 20160926: Added Broadcom WLAN drivers
+
