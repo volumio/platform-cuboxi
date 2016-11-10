@@ -1,5 +1,7 @@
-Build
-=====
+# platform-cuboxi
+Platform files for SolidRun Cuboxi/ Hummingboard
+
+Kernel Sources: http://www.kernel.org, Version 4.7.2
 
 This repo contains all platform-specific files, used by the Volumio Builder to create **cubox-i** and **hummingboard** images:
 
