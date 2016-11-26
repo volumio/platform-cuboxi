@@ -1,5 +1,7 @@
-Build
-=====
+# platform-cuboxi
+Platform files for SolidRun Cuboxi/ Hummingboard
+
+Kernel Sources: http://www.kernel.org, Version 4.7.2
 
 This repo contains all platform-specific files, used by the Volumio Builder to create **cubox-i** and **hummingboard** images:
 
@@ -17,4 +19,5 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
             http://git.kernel.org/cgit/linux/kernel/git/next/linux-next.git/commit/arch/arm/boot/dts/imx6qdl.dtsi?id=f065e9e4addd75c21bb976bb2558648bf4f61de6
 - 20160913: Added ALSA aliases            
 - 20160926: Added Broadcom WLAN drivers
+- 20161127: Added /lib/firmware/brcm/brcmfmac4329-sdio.txt and /lib/firmware/brcm/brcmfmac4329-sdio.txt
 
