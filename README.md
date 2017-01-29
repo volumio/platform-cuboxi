@@ -1,8 +1,9 @@
 # platform-cuboxi
 Platform files for SolidRun Cuboxi/ Hummingboard
 
-Kernel Sources: Mainline (unused as of 20170129) http://www.kernel.org, Version 4.7.2  
-		Legacy (used as of 20170129) https://github.com/SolidRun/linux-fslc  
+Kernel Sources:  
+Mainline (unused as of 20170129) http://www.kernel.org, version 4.7.2  
+Legacy (used as of 20170129) https://github.com/SolidRun/linux-fslc, version 3.14.79  
 
 This repo contains all platform-specific files, used by the Volumio Builder to create **cubox-i** and **hummingboard** images:
 
@@ -26,7 +27,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - 20170122: Added Kernel option 'cfg80211 wireless extensions compatibility'  
 - 20170129: ===== Reversed to Legacy Kernel 3.14.79  
 
-**Platform files with kernel version 4.7.2**
-- 20170129: Changed to Kernel 3.14.79 after backporting overlayfs with a modified patch-set  
+**Platform files with kernel version 3.14.79**
+- 20170129: Changed from Kernel 4.7.2 to 3.14.79 after backporting overlayfs with a modified patch-set  
 
 
