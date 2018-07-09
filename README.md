@@ -31,4 +31,9 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - 20170129: Changed from Kernel 4.7.2 to 3.14.79 after backporting overlayfs with a modified patch-set  
 - 20170202: Re-tarred
 
+**Platform files with kernel version 4.15.18**
+- 20180709: Changed from Kernel 3.14.79 to Armbian Kernel 4.15.18-cuboxi  
+
+
+
 
