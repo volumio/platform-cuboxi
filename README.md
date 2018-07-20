@@ -1,11 +1,11 @@
 # platform-cuboxi
 Platform files for SolidRun Cuboxi/ Hummingboard  
 
-** Kernel Sources **
+### Kernel Sources  
 
 Mainline built with the Armbian Build scripts, see https://docs.armbian.com/Developer-Guide_Build-Preparation/  
 
-** Contents **
+### Contents  
 This repo contains all platform-specific files, used by the Volumio Builder to create **cubox-i** and **hummingboard** images:
 
 - Kernel files (kernel, modules, firmware)
