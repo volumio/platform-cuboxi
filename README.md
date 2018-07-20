@@ -1,10 +1,11 @@
 # platform-cuboxi
-Platform files for SolidRun Cuboxi/ Hummingboard
+Platform files for SolidRun Cuboxi/ Hummingboard  
 
-Kernel Sources:  
-Mainline (unused as of 20170129) http://www.kernel.org, version 4.7.2  
-Legacy (used as of 20170129) https://github.com/SolidRun/linux-fslc, version 3.14.79  
+### Kernel Sources  
 
+Mainline built with the Armbian Build scripts, see https://docs.armbian.com/Developer-Guide_Build-Preparation/  
+
+### Contents  
 This repo contains all platform-specific files, used by the Volumio Builder to create **cubox-i** and **hummingboard** images:
 
 - Kernel files (kernel, modules, firmware)
@@ -31,8 +32,8 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 - 20170129: Changed from Kernel 4.7.2 to 3.14.79 after backporting overlayfs with a modified patch-set  
 - 20170202: Re-tarred
 
-**Platform files with kernel version 4.15.18**
-- 20180709: Changed from Kernel 3.14.79 to Armbian Kernel 4.15.18-cuboxi  
+**Platform files with kernel version 4.14.56**
+- 20180720: Changed from Kernel 3.14.79 to Armbian Kernel 4.14.56-cuboxi  
 
 
 
