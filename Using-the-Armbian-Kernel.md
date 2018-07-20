@@ -21,7 +21,7 @@ Compiled
 Documentation	
 : https://docs.armbian.com/Developer-Guide_Build-Preparation/
 
-##Armbian Build documentation
+## Armbian Build documentation
 
 Follow the instructions in the Armbian documentation to download the repo for building an Armbian system.
 You only need to compile u-boot and the kernel.
@@ -42,7 +42,7 @@ Transfer them to the folder were you want to assemble the platform package to be
 - Create folder cuboxi/uboot
 - Create folder cuboxi/usr
 
-####Open "linux-image-next-cubox_5.52_armhf.deb" 
+#### Open "linux-image-next-cubox_5.52_armhf.deb" 
 (On a Debian desktop you can do that by double-clicking the "deb"-file, otherwise use **dpkg-deb** to extract).
 
 From the archive, extract **/boot/config-4.14.56-cubox** to the **cuboxi/boot** folder.
