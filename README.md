@@ -1,7 +1,7 @@
 # platform-cuboxi
 Platform files for SolidRun Cuboxi/ Hummingboard
 
-**Kernel Sources
+** Kernel Sources
 
 Mainline built with the Armbina Build scripts, see https://docs.armbian.com/Developer-Guide_Build-Preparation/
 Mainline (unused as of 20170129) http://www.kernel.org, version 4.7.2  
