@@ -3,7 +3,7 @@ Platform files for SolidRun Cuboxi/ Hummingboard
 
 ### Kernel Sources
 
-Mainline built with the Armbina Build scripts, see https://docs.armbian.com/Developer-Guide_Build-Preparation/  
+Mainline built with the Armbian Build scripts, see https://docs.armbian.com/Developer-Guide_Build-Preparation/  
 
 (obsolete)  
 Mainline (unused as of 20170129) http://www.kernel.org, version 4.7.2  
