@@ -1,22 +1,23 @@
 
 # How to use the Armbian Build process for Volumio 
 
+
 ## Sources
 
 Sources
 : https://github.com/armbian/build
 
 Build version	
-: v5.52 
+: v5.67 
 
 U-boot version	
 : U-Boot 2013.10-rc4
 
 Kernel version	
-: 4.14.56-cubox
+: 4.14.90-cubox
 
 Compiled
-: 20.07.2018
+: 24.12.2018
 
 Documentation	
 : https://docs.armbian.com/Developer-Guide_Build-Preparation/
@@ -38,32 +39,7 @@ Transfer them to the folder were you want to assemble the platform package to be
 
 ## Assembling the Volumio platform folder
 
-- Create folder cuboxi/boot
-- Create folder cuboxi/uboot
-- Create folder cuboxi/usr
-
-#### Open "linux-image-next-cubox_5.52_armhf.deb" 
-(On a Debian desktop you can do that by double-clicking the "deb"-file, otherwise use **dpkg-deb** to extract).
-
-From the archive, extract **/boot/config-4.14.56-cubox** to the **cuboxi/boot** folder.
-
-From the archive, extract **/boot/vmlinux-4.14.56-cubox** to the **cuboxi/boot** folder, then rename (or copy) **cuboxi/boot/vmlinux-4.14.56-cubox** to **cuboxi/boot/zImage**.
-
-From the archive, extract the following dtb's from the **/usr/lib/linux-image-next-cubox** to the **cuboxi/boot** folder":
-
-	imx6dl-cubox-i.dtb
-	imx6dl-hummingboard.dtb
-	imxq-cubox-i.dtb
-	imxq-hummingboard.dtb
-
-From the archive, extract the contents of **lib** to the **cuboxi/lib** folder.
-
-#### Next open "linux-uboot-next-cubox_5.52_armhf.deb".
-From the archive, extract **/usr/lib/linux-u-boot-next-cubox-i_5.52_armhf/SPL** to o the **cuboxi/uboot** folder.
-From the archive, extract **/usr/lib/linux-u-boot-next-cubox-i_5.52_armhf/u-boot.img** to o the **cuboxi/uboot** folder.
-
-#### Next open "linux-headers-next-cubox_5.52_armhf.deb".
-From the archive, extraxt the contents of **/usr** to the **cubox/usr* folder.
+See script **build-platform.sh** as an example.
 
 ## Create additional files
 
@@ -87,7 +63,7 @@ Go to the parent folder, in this example's case: $HOME and make a tarball:
   
 
 ***
-~Friday, 20. July 2018 05:09pm ~
+~Monday, 24. December 2018 19:00pm ~
 
 
 
