@@ -37,7 +37,7 @@ This repo contains all platform-specific files, used by the Volumio Builder to c
 
 **Platform files with kernel version 4.14.90**
 - 20181224: Changed to Armbian Kernel 4.14.90-cuboxi  
-- 20181224: ALSA: usb-audio: Backport from kernel 4.19.y: Generic DSD detection for XMOS-based implementations-4.14.90  plus support for additional DACs with DSD capabilities. 
+- 20181224: ALSA: USB-Audio: Backport from kernel 4.18/4.19: Generic DSD detection for XMOS-based implementations-4.14.90  plus support for additional DACs with DSD capabilities. 
 
 
 
